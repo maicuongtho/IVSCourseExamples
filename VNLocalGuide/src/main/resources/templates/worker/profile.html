@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Hồ sơ cá nhân</title>
+    <div th:replace="fragments/header-worker :: header-css"/>
+</head>
+<body>
+<div th:replace="fragments/header-worker :: header"/>
+ 	<div id="page-wrapper">
+		 <div class="containner">
+		        <span th:text=${name}></span> 
+		 </div>
+	</div>
+</body>
+</html>
