@@ -10,5 +10,7 @@ public interface IUserService {
     AppUser findOne(String email);
     void save(AppUser user);
     void delete(int id);
+    
+    
  
 }
