@@ -6,6 +6,9 @@
 <head>
 <meta charset="UTF-8">
 <link href="<c:url value="/tainguyen/css/styles.css" />" rel="stylesheet">
+	
+	
+	
 	<!-- no jstl, use 
 	<link href="${pageContext.request.contextPath}/tainguyen/css/style.css" rel="stylesheet" >	
 	 -->
