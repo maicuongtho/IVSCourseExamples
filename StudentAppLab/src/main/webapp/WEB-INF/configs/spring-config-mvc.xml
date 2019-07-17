@@ -15,11 +15,13 @@
 	 <context:annotation-config/>
 	 <mvc:annotation-driven/> 
 	 <mvc:resources mapping="/resources/**" location="/tainguyen/" cache-period="31556926"/>
+	 <mvc:resources mapping="/webjars/**" location="/webjars/" cache-period="31556926"/>
+	 
 	 <!-- Cấu hình views -->
 	 <bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix">
-			<value>/WEB-INF/views/</value>
+			<value>/WEB-INF/views/layout-dispatcher.jsp?view=</value>
 		</property>
 		<property name="suffix">
 			<value>.jsp</value>

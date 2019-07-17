@@ -14,7 +14,7 @@
 	 <!-- Spring MVC Anotation -->
 	 <context:annotation-config/>
 	 <mvc:annotation-driven/> 
-	 <mvc:resources mapping="/resources/**" location="/resources/" cache-period="31556926"/>
+	 <mvc:resources mapping="/resources/**" location="/tainguyen/" cache-period="31556926"/>
 	 <!-- Cấu hình views -->
 	 <bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
