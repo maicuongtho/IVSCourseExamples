@@ -7,6 +7,11 @@
 <title>Đăng nhập hệ thống</title>
 </head>
 <body>
-	<H1>form đăng nhập ở đây</H1>
+	
+	<div class="container">
+	    <div class="alert alert-success">         
+	        <strong>Nạp Bootstrap Thành công!</strong> Hoạt động như mong đợi.
+	    </div>
+	</div>
 </body>
 </html>
