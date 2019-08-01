@@ -2,8 +2,10 @@ package vn.localguides.service;
 
 import java.util.List;
 
-import vn.localguides.model.AppUser;
+import org.springframework.stereotype.Service;
 
+import vn.localguides.model.AppUser;
+@Service
 public interface IUserService {
 	Iterable<AppUser> findAll();
     List<AppUser> search(String q);
